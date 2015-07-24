@@ -1,0 +1,15 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Tests" type="mocha-javascript-test-runner" factoryName="Mocha">
+    <node-options />
+    <working-directory>$PROJECT_DIR$</working-directory>
+    <pass-parent-env>true</pass-parent-env>
+    <envs />
+    <ui>BDD</ui>
+    <extra-mocha-options>&quot;test/**/*-test.js&quot; --compilers js:babel/register --require &quot;test/helpers/helper.js&quot;</extra-mocha-options>
+    <test-directory>$PROJECT_DIR$</test-directory>
+    <recursive>false</recursive>
+    <RunnerSettings RunnerId="RunnerForMochaJavaScript" />
+    <ConfigurationWrapper RunnerId="RunnerForMochaJavaScript" />
+    <method />
+  </configuration>
+</component>
